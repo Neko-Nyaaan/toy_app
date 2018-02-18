@@ -1,4 +1,4 @@
-class MicropostsController < ApplicationController::Base
+class MicropostsController < ApplicationController
   before_action :set_micropost, only: [:show, :edit, :update, :destroy]
 
   # GET /microposts
